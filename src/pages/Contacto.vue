@@ -6,7 +6,7 @@
     <div class="bg-[#FCFAF7]">
         <header class="bg-zafre flex justify-evenly mt-10 p-4"> 
             <div class="bg-primary font-semibold text-center min-w-[157px] max-w-10 py-3 px-6 rounded-xl">
-                <a href="/menu/">Menu digital</a>
+                <a href="Menu.vue">Menu digital</a>
             </div>
         </header>
         <div>

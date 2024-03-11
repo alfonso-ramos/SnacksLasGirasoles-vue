@@ -12,7 +12,7 @@ export const filterCategory = (category) => {
         snacksFilter = []
         const newFilter = snacks.filter(snack => snack.categoria === category)
         snacksFilter.push(...newFilter)
-
+        
     }
     console.log(snacksFilter)
     return snacksFilter
