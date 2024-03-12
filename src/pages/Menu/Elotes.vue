@@ -1,29 +1,12 @@
 <script setup>
-    import SnackCard from '../components/SnackCard.vue';
+    import SnackCard from '../../components/SnackCard.vue';
     import { ref } from 'vue';
 
-    import { snacks} from '../data/menu';
-    import { filterCategory, snacksFilter } from '../utils/FilterCategory';
-
+    import { snacks} from '../../data/menu';
+    import { filterCategory, snacksFilter } from '../../utils/FilterCategory';
 
     const categoriaUnica = Array.from(new Set(snacks.map(snack => snack.categoria)));
-
-    // const snackList = ref([])
-    // const snack = ref({})
-    const menuList = ref(filterCategory(null));
-    // let selectedCategory = ref(null)
-
-    // const selectCategory = category => {
-    //     selectedCategory.value = category
-    //     filterCategory(category)
-    //     console.warn(category)
-    // }
-
-    // const count = ref(0)
-
-    // onUpdated(() => {
-    // console.log(document.getElementById('#count').textContent)
-    // })
+    const menuList = ref(filterCategory('Elote'));
 
 </script>
 
@@ -52,6 +35,4 @@
             />
         </div>
     </div>
-
 </template>
-
