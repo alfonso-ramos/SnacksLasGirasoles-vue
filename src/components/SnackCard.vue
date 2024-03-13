@@ -9,11 +9,15 @@
 </script>
 
 <template>
+    {{ 
+        // console.log(snack.img)
+        console.log('../assets/img/'+ snack.img+ '.webp')
+    }}
     <div id="snackCard" class="w-[358px] h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md">
         <div>
             <h3 class="text-base font-semibold text-[#1C1A0D]">{{ snack.titulo }}</h3>
             <p class="text-[#9C8F4A]">$ {{ snack.precio }}</p>
         </div>
-        <img class="w-24 h-[56px] object-contain" :src="snack.img" alt="">
+        <img class="w-24 h-[56px] object-contain" :src="'src/assets/img/'+ snack.img+ '.webp'" alt="">
     </div>
 </template>

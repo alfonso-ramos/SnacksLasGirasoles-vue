@@ -5,7 +5,7 @@ export const snacks = [
         descripcion: 'Elote en palo natural con queso y crema o mayonesa',
         precio: 30,
         categoria: 'Elote',
-        img: 'src/assets/img/entero.webp'
+        img: 'entero'
     },
     { 
         id: 2,
@@ -13,7 +13,7 @@ export const snacks = [
         descripcion: 'Elote desgranado en vaso',
         precio: 25,
         categoria: 'Elote',
-        img: '/src/assets/img/eloteVaso.webp'
+        img: 'eloteVaso'
     },
     { 
         id: 3,
@@ -21,7 +21,7 @@ export const snacks = [
         descripcion: 'Charola con elote entero, sabritas al rededor y elote drafranado encima',
         precio: 105,
         categoria: 'Elote',
-        img: '/src/assets/img/eloteMixto.webp'
+        img: 'eloteMixto'
 
     },
     { 
@@ -30,7 +30,7 @@ export const snacks = [
         descripcion: 'Litro de elote desfranado y unas sabritas enteras con elote partido en dos por encima ',
         precio: 105,
         categoria: 'Elote',
-        img: '/src/assets/img/Duomiox.webp'
+        img: 'Duomiox'
     },
     { 
         id: 5,
@@ -38,7 +38,7 @@ export const snacks = [
         descripcion: 'Elote entero con queso y crema o mayonesa, envuelto con sabritas molidas de su eleccion',
         precio: 60,
         categoria: 'Elote',
-        img: '/src/assets/img/envuelto.webp'
+        img: 'envuelto'
     },
     { 
         id: 6,
@@ -53,7 +53,7 @@ export const snacks = [
         descripcion: 'Plato de elote desgranado con sabritas enteras, al centro un medio litro con dos mitades de elote entero clavados con queso, crema y queso amarillo',
         precio: 120,
         categoria: 'Elote',
-        img: '/src/assets/img/eloteErupcion.webp'
+        img: 'eloteErupcion'
     },
     { 
         id: 8,
@@ -61,7 +61,7 @@ export const snacks = [
         descripcion: 'Medio litro de elote desgranado con una sabrita molida, queso, crema o mayonesa y queso amarillo',
         precio: 70,
         categoria: 'Elote',
-        img: '/src/assets/img/eleccionNormal.webp'
+        img: 'eleccionNormal'
     },
     { 
         id: 9,
@@ -69,7 +69,7 @@ export const snacks = [
         descripcion: 'Charola de elote con una elección normal en el medio, al rededor una sabrita entera con elote desgranado',
         precio: 105,
         categoria: 'Elote',
-        img: '/src/assets/img/eleccionEspecial.webp'
+        img: 'eleccionEspecial'
     },
     { 
         id: 10,
@@ -77,7 +77,7 @@ export const snacks = [
         descripcion: 'Charola con una maruchan preparado con elote desgranado y una sabrita enteras',
         precio: 105,
         categoria: 'Elote',
-        img: '/src/assets/img/esquisopa.webp'
+        img: 'esquisopa'
     },
     { 
         id: 11,
@@ -85,7 +85,7 @@ export const snacks = [
         descripcion: 'Cueritos preparados con tomate, cebolla y pepino, sal y pimienta',
         precio: 45,
         categoria: 'Agridulce',
-        img: '/src/assets/img/CueritosPreparados.webp'
+        img: 'CueritosPreparados'
     },
     { 
         id: 12,
@@ -93,7 +93,7 @@ export const snacks = [
         descripcion: 'Charola con una sabrita entera, zanahoria rayada, cueritos, salchicha, pepino, jicama, cacahuates, rielitos y una variedad de gomitas',
         precio: 105,
         categoria: 'Agridulce',
-        img: '/src/assets/img/giracrazy.webp'
+        img: 'giracrazy'
     },
     { 
         id: 13,
@@ -101,7 +101,7 @@ export const snacks = [
         descripcion: 'Vaso con cacahuates, cueritos, pepino, jicama, rielitos, kermato y salsa agridulce',
         precio: 40,
         categoria: 'Agridulce',
-        img: '/src/assets/img/cacahuatada.webp'
+        img: 'cacahuatada'
     },
     { 
         id: 14,
@@ -123,7 +123,7 @@ export const snacks = [
         descripcion: 'Vaso com churros de maiz, cacahuates, salchichas, pepino, jicama, rielitos, kermaot, gomitas y salsa agridulce',
         precio: 50,
         categoria: 'Agridulce',
-        img: '/src/assets/img/churroLoco.webp'
+        img: 'src/assets/img/churroLoco.webp'
     },
     { 
         id: 17,
@@ -131,7 +131,7 @@ export const snacks = [
         descripcion: 'Papas con ceviche, cueritos, pepino, jicama, cacahuates, rielitos, kermato y salsa agridulce',
         precio: 60,
         categoria: 'Agridulce',
-        img: '/src/assets/img/papasPreparadas.webp'
+        img: 'src/assets/img/papasPreparadas.webp'
     },
     { 
         id: 18,
