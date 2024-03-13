@@ -14,11 +14,11 @@
 				</div>
 			</header>
 			<div class="mx-4 mt-10 md:mt-20">
-				<img class="mx-auto"  src="../assets/img/logo.webp" alt="">
+				<img class="mx-auto"  src="/img/logo.webp" alt="">
 			</div>
 			<div class="relative overflow-hidden">
-				<img class="relative right-40 -bottom-10 xl:h-[600px]" src="../assets/img/MangoCrema.webp" alt="">
-				<img class="absolute left-2/4 bottom-0 xl:left-3/4 xl:h-[600px]" src="../assets/img/churroLoco.webp" alt="">
+				<img class="relative right-40 -bottom-10 xl:h-[600px]" src="/img/MangoCrema.webp" alt="">
+				<img class="absolute left-2/4 bottom-0 xl:left-3/4 xl:h-[600px]" src="/img/churroLoco.webp" alt="">
 			</div>
 		</main>
 	</LandingLayout>
