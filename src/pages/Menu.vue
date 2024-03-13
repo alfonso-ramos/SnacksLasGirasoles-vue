@@ -7,23 +7,8 @@
 
 
     const categoriaUnica = Array.from(new Set(snacks.map(snack => snack.categoria)));
-
-    // const snackList = ref([])
-    // const snack = ref({})
     const menuList = ref(filterCategory(null));
-    // let selectedCategory = ref(null)
 
-    // const selectCategory = category => {
-    //     selectedCategory.value = category
-    //     filterCategory(category)
-    //     console.warn(category)
-    // }
-
-    // const count = ref(0)
-
-    // onUpdated(() => {
-    // console.log(document.getElementById('#count').textContent)
-    // })
 
 </script>
 
@@ -45,12 +30,10 @@
     </nav>
 
     <div class="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3">
-        <div >
             <SnackCard 
                 v-for="snack in snacksFilter" 
                 :snack="snack"
             />
-        </div>
     </div>
 
 </template>
