@@ -18,6 +18,6 @@
             <h3 class="text-base font-semibold text-[#1C1A0D]">{{ snack.titulo }}</h3>
             <p class="text-[#9C8F4A]">$ {{ snack.precio }}</p>
         </div>
-        <img class="w-24 h-[56px] object-contain" :src="'src/assets/img/'+ snack.img+ '.webp'" alt="">
+        <img class="w-24 h-[56px] object-contain" :src="'/img/'+ snack.img+ '.webp'" alt="">
     </div>
 </template>
