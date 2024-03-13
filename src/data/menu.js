@@ -123,7 +123,7 @@ export const snacks = [
         descripcion: 'Vaso com churros de maiz, cacahuates, salchichas, pepino, jicama, rielitos, kermaot, gomitas y salsa agridulce',
         precio: 50,
         categoria: 'Agridulce',
-        img: 'src/assets/img/churroLoco.webp'
+        img: 'churroLoco'
     },
     { 
         id: 17,
@@ -131,7 +131,7 @@ export const snacks = [
         descripcion: 'Papas con ceviche, cueritos, pepino, jicama, cacahuates, rielitos, kermato y salsa agridulce',
         precio: 60,
         categoria: 'Agridulce',
-        img: 'src/assets/img/papasPreparadas.webp'
+        img: 'papasPreparadas'
     },
     { 
         id: 18,
@@ -146,7 +146,7 @@ export const snacks = [
         descripcion: 'Tostitos con elote desgranado, queso amarillo, queso y crema o mayones',
         precio: 65,
         categoria: 'Tostitos',
-        img: '/src/assets/img/Tostielote.webp'
+        img: 'Tostielote'
     },
     { 
         id: 20,
@@ -154,7 +154,7 @@ export const snacks = [
         descripcion: 'Tostitos con ceviche de sierra, cueritos, pepino, jicama, cacahuate, rielitos y kermato',
         precio: 65,
         categoria: 'Tostitos',
-        img: '/src/assets/img/tostiloco.webp'
+        img: 'tostiloco'
     },
     { 
         id: 21,
@@ -162,7 +162,7 @@ export const snacks = [
         descripcion: 'Tostitos con ceviche de camaron, cueritos, jicama, cacahuates, rielitos y kermato',
         precio: 70,
         categoria: 'Tostitos',
-        img: '/src/assets/img/tostiCamaron.webp'
+        img: 'tostiCamaron'
     },
     { 
         id: 22,
@@ -194,7 +194,7 @@ export const snacks = [
         descripcion: '',
         precio: 70,
         categoria: 'Helado',
-        img: '/src/assets/img/frappe.webp'
+        img: 'frappe'
     },
     { 
         id: 26,
@@ -231,7 +231,7 @@ export const snacks = [
         descripcion: '',
         precio: 70,
         categoria: 'Helado',
-        img: '/src/assets/img/freman.webp'
+        img: 'freman'
     },
     { 
         id: 31,
