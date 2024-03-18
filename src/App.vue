@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
   import { ref, computed } from 'vue'
 	import Langding from './pages/Landing.vue'
 	import Contacto from './pages/Contacto.vue'
@@ -43,5 +43,13 @@
 
 <template>
 	<component :is="currentView" />
-</template>
+</template> -->
 
+<script>
+
+</script>
+
+<template>
+	<router-view>
+	</router-view>
+</template>

@@ -15,13 +15,13 @@ const menuList = ref(filterCategory('Postres'));
         <ul class="flex overflow-scroll gap-2 cursor-pointer">
             <li id="allCategory" class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5"
                 @click="filterCategory(null)">
-                <a href="#/menu">Todos</a>
+                <router-link to="/menu">Todos</router-link>
             </li>
             <li v-for="categoria in categoriaUnica" :key="categoria"
                 class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5 selectedCategory">
-                <a :href="'#/' + categoria">
+                <router-link :to="'/'+categoria">
                     {{ categoria }}
-                </a>
+                </router-link>
             </li>
         </ul>
     </nav>
