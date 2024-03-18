@@ -13,6 +13,7 @@ const routes = [
     {path: '/helado', name: 'helado', component: ()=>import('../pages/Menu/Helado.vue')},
     {path: '/postres', name: 'postres', component: ()=>import('../pages/Menu/Postres.vue')},
     {path: '/tostitos', name: 'tostitos', component: ()=>import('../pages/Menu/Tostitos.vue')},
+    {path: '/snack/:id', name: 'snacks.show', component: () => import('../views/SnackShow.vue')}
 ]
 
 const router = createRouter({

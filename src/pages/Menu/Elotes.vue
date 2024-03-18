@@ -1,5 +1,4 @@
 <script setup>
-import SnackCard from '../../components/SnackCard.vue';
 import { ref } from 'vue';
 
 import { snacks } from '../../data/menu';
@@ -28,7 +27,18 @@ const menuList = ref(filterCategory('Elote'));
 
     <div class="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3">
 
-        <SnackCard v-for="snack in snacksFilter" :snack="snack" />
+        <router-link 
+            class="w-[358px] h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md"
+            v-for="snack in snacksFilter"
+            :key="snack.id"
+            :to="{name: 'snacks.show', params:{id:snack.id}}"
+        >
+            <div>
+                <h3 class="text-base font-semibold text-[#1C1A0D]">{{snack.titulo}}</h3>
+                <p class="text-[#9C8F4A]">$ {{ snack.precio }}</p>
+            </div>
+            <img class="w-24 h-[56px] object-contain" :src="`/img/${ snack.img}.webp`" :alt="snack.titulo">
+        </router-link>
 
     </div>
 </template>

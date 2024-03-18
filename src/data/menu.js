@@ -27,10 +27,10 @@ export const snacks = [
     { 
         id: 4,
         titulo: 'DuoMix',
-        descripcion: 'Litro de elote desfranado y unas sabritas enteras con elote partido en dos por encima ',
+        descripcion: 'Litro de elote desgranado y unas sabritas enteras con elote partido en dos por encima ',
         precio: 105,
         categoria: 'Elote',
-        img: 'Duomiox'
+        img: 'Duomix'
     },
     { 
         id: 5,
