@@ -3,9 +3,7 @@
 
     const copyToClipboard = () => {
         if(navigator.clipboard) {
-            navigator.clipboard.writeText('6692639645').then(() => {
-                alert('Se ha copiado')
-            })
+            navigator.clipboard.writeText('6692639645')
         } else {
             console.log('Navegador no compatible')
         }

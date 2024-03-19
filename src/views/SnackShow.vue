@@ -8,28 +8,48 @@
             <h2>¡No te quedes con el antojo!</h2>
 
             <div class="flex flex-col items-center gap-6 my-6 md:flex-row md:justify-center">
-                <PhoneButton />
+                <PhoneButton @click="mostrar"/>
                 <WAButton />
             </div>
+            <Alerta v-if="alerta.mostrar"/>
         </div>
     </div>
 </template>
 
 <script>
-import { snacks } from '../data/menu';
 
+    import { snacks } from '../data/menu';
+    import { reactive } from 'vue'
+    import Alerta from '../components/Alerta.vue'
     import PhoneButton from '../components/PhoneButton.vue';
     import WAButton from '../components/WAButton.vue';
 
-export default {
-    computed: {
-        snackId() {
-            return parseInt(this.$route.params.id)
+    export default {
+        setup() {
+            const alerta = reactive({
+                mostrar: false
+            });
+
+            const mostrar = () => {
+                alerta.mostrar = true
+                setTimeout(() => {
+                    alerta.mostrar = false
+                }, 3000);
+            }
+
+            return {
+                alerta,
+                mostrar
+            }
         },
-        snack() {
-            return snacks.find(snack => snack.id === this.snackId)
-        }
-    },
-    components: {PhoneButton, WAButton}
-}
+        computed: {
+            snackId() {
+                return parseInt(this.$route.params.id)
+            },
+            snack() {
+                return snacks.find(snack => snack.id === this.snackId)
+            }
+        },
+        components: {PhoneButton, WAButton, Alerta}
+    }
 </script>

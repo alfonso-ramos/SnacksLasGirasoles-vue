@@ -1,9 +1,26 @@
 <script setup>
+    import {reactive} from 'vue'
+
     import PhoneButton from '../components/PhoneButton.vue';
     import WAButton from '../components/WAButton.vue';
+    import Alerta from '../components/Alerta.vue'
+
+    const alerta = reactive({
+        mostrar: false
+    })
+
+    const mostrar = () => {
+        
+        alerta.mostrar = true
+        setTimeout(() => {
+            Object.assign(alerta, {
+                mostrar: false
+            })
+        }, 3000);
+    }
 </script>
 <template>
-    <div class="bg-[#FCFAF7]">
+    <div class="bg-[#FCFAF7] pb-10">
         <header class="bg-zafre flex justify-evenly mt-10 p-4"> 
             <div class="bg-primary font-semibold text-center min-w-[157px] max-w-10 py-3 px-6 rounded-xl">
                 <router-link to="/menu">Menu digital</router-link>
@@ -19,9 +36,10 @@
             <p class="text-base font-semibold text-center">Tambien nos puedes contactar por telefono o Whatsapp</p>
     
             <div class="flex flex-col items-center gap-6 my-6 md:flex-row md:justify-center">
-                <PhoneButton />
+                <PhoneButton @click="mostrar" />
                 <WAButton />
             </div>
+            <Alerta v-if="alerta.mostrar"/>
         </div>
     </div>
 </template>
