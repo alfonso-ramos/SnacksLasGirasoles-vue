@@ -1,17 +1,27 @@
 <template>
-    <div>
-        <router-link to="/menu" class="absolute">Regresar</router-link>
-        <img :src="`/img/${snack.img}.webp`" :alt="snack.titulo">
-        <div>
-            <h1>{{snack.titulo}}</h1>
-            <p>{{ snack.descripcion }}</p>
-            <h2>¡No te quedes con el antojo!</h2>
-
-            <div class="flex flex-col items-center gap-6 my-6 md:flex-row md:justify-center">
-                <PhoneButton @click="mostrar"/>
-                <WAButton />
+    <div class="bg-alabaster h-screen">
+        <router-link to="/menu" class="absolute md:relative underline text-secondary ">
+            <div class="flex first-letter:justify-center gap-2 pt-5 pl-7 w-fit ">
+                <img class="size-6" src="../assets/icons/back-arrow.svg" alt="">
+                Volver al menu
             </div>
-            <Alerta v-if="alerta.mostrar"/>
+        </router-link>
+        <div class="md:flex md:gap-5 md:px-auto md:py-10 md:px-20">
+            <img 
+                :src="`/img/${snack.img}.webp`" :alt="snack.titulo"
+                class="min-w-[367px] mx-auto max-w-[500px] object-contain"
+            >
+            <div class="bg-alabaster py-6 px-8 md:bg-white rounded-2xl md:w-[502px] md:h-[605px]">
+                <h1 class="text-lg font-semibold md:text-xl">{{snack.titulo}}</h1>
+                <p class="text-base md:font-base my-4">{{ snack.descripcion }}</p>
+                <h2 class="text-lg font-semibold md:text-xl text-center">¡No te quedes con el antojo!</h2>
+    
+                <div class="flex flex-col items-center gap-6 my-6">
+                    <PhoneButton @click="mostrar"/>
+                    <WAButton />
+                </div>
+                <Alerta v-if="alerta.mostrar"/>
+            </div>
         </div>
     </div>
 </template>
