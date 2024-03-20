@@ -13,7 +13,7 @@
 </script>
 
 <template>
-    <img class="size-24 mx-auto" src="../../../public/img/logo.webp" alt="">
+    <img class="size-24 mx-auto" src="/public/img/logo.webp" alt="">
 
     <nav>
         <ul class="flex overflow-scroll gap-2 cursor-pointer md:justify-center text-[#9C8F4A]">
