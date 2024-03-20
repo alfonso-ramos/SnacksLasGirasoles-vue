@@ -6,15 +6,15 @@
                 Volver al menu
             </div>
         </router-link>
-        <div class="md:flex md:gap-2 md:px-auto md:py-10 md:px-20">
+        <div class="md:flex md:gap-8 md:px-auto md:py-10 md:px-20 md:justify-center">
             <img 
                 :src="`/img/${snack.img}.webp`" :alt="snack.titulo"
-                class="min-w-full mx-auto w-screen max-w-[300px] object-contain"
+                class="min-w-full max-h-[350px] mx-auto md:mx-0 w-screen max-w-[300px] object-contain md:min-w-[300px]"
             >
-            <div class="bg-alabaster w-screen py-6 px-8 md:bg-white rounded-2xl md:w-[282px] md:h-[605px]">
-                <h1 class="text-lg font-semibold md:text-xl">{{snack.titulo}}</h1>
+            <div class="bg-alabaster w-screen py-6 px-8 md:bg-white rounded-2xl md:w-[282px]">
+                <h1 class="text-lg font-semibold md:text-lg">{{snack.titulo}}</h1>
                 <p class="text-base md:font-base my-4">{{ snack.descripcion }}</p>
-                <h2 class="text-lg font-semibold md:text-xl text-center">¡No te quedes con el antojo!</h2>
+                <h2 class="text-lg font-semibold md:text-lg text-center">¡No te quedes con el antojo!</h2>
     
                 <div class="flex flex-col items-center gap-6 my-6">
                     <PhoneButton @click="mostrar"/>
