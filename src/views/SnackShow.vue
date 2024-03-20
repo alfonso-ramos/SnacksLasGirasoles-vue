@@ -1,12 +1,12 @@
 <template>
     <div class="bg-alabaster h-screen">
-        <router-link to="/menu" class="absolute md:relative underline text-secondary">
+        <router-link to="/menu" class="absolute  underline text-secondary">
             <div class="flex first justify-center gap-2 relative mt-5 ml-7 p-1 rounded-xl w-fit opacity-50 hover:opacity-100 transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-primary duration-300 md:opacity-100">
                 <img class="size-6" src="../assets/icons/back-arrow.svg" alt="Flecha atras, regresar al menu">
                 Volver al menu
             </div>
         </router-link>
-        <div class="md:flex md:gap-8 md:px-auto md:py-10 md:px-20 md:justify-center">
+        <div class="md:flex md:gap-8 md:px-auto md:py-10 md:px-20 md:justify-center md:pt-24">
             <img 
                 :src="`/img/${snack.img}.webp`" :alt="snack.titulo"
                 class="min-w-full max-h-[350px] mx-auto md:mx-0 w-screen max-w-[300px] object-contain md:min-w-[300px]"
