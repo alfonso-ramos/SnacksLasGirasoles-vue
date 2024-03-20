@@ -10,8 +10,9 @@ const menuList = ref(filterCategory('Caliente'));
 </script>
 
 <template>
+    <img class="size-24 mx-auto" src="../../../public/img/logo.webp" alt="">
     <nav>
-        <ul class="flex overflow-scroll gap-2 cursor-pointer">
+        <ul class="flex overflow-scroll gap-2 cursor-pointer md:justify-center text-[#9C8F4A]">
             <li id="allCategory" class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5"
                 @click="filterCategory(null)">
                 <router-link to="/menu">Todos</router-link>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav li a.router-link-active,
+nav li a.router-link-exact-active {
+  color: black;
+  cursor: pointer;
+}

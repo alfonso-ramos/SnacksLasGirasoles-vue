@@ -10,9 +10,10 @@ const menuList = ref(filterCategory('Agridulce'));
 </script>
 
 <template>
+    <img class="size-24 mx-auto" src="../../../public/img/logo.webp" alt="">
     <nav>
-        <ul class="flex overflow-scroll gap-2 cursor-pointer">
-            <li id="allCategory" class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5"
+        <ul class="flex overflow-scroll gap-2 cursor-pointer md:justify-center text-[#9C8F4A]">
+            <li id="allCategory" class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5 "
                 @click="filterCategory(null)">
                 <router-link to="/menu">Todos</router-link>
             </li>
@@ -27,7 +28,7 @@ const menuList = ref(filterCategory('Agridulce'));
 
     <div class="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3">
         <router-link 
-            class="w-[358px] h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md"
+            class="w-[358px] h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md "
             v-for="snack in snacksFilter"
             :key="snack.id"
             :to="{name: 'snacks.show', params:{id:snack.id}}"
