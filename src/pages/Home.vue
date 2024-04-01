@@ -15,7 +15,7 @@
 				</div>
 			</header>
 			<div class="mx-4 mt-10 md:mt-20">
-				<img class="mx-auto"  src="/img/logo.webp" alt="">
+				<img class="mx-auto w-[500px]"  src="/img/logo.png" alt="">
 			</div>
 			<div class="relative overflow-hidden">
 				<img class="relative right-40 -bottom-10 xl:h-[600px]" src="/img/MangoCrema.webp" alt="">

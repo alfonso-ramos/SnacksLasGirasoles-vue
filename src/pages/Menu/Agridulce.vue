@@ -10,7 +10,7 @@ const menuList = ref(filterCategory('Agridulce'));
 </script>
 
 <template>
-    <img class="size-24 mx-auto" src="../../../public/img/logo.webp" alt="">
+    <img class="size-24 mx-auto" src="../../../public/img/logo.png" alt="">
     <nav>
         <ul class="flex overflow-scroll md:overflow-hidden gap-2 cursor-pointer md:justify-center text-[#9C8F4A]">
             <li id="allCategory" class="w-[83.5px] h-[53px] text-base font-semibold py-3 px-5 "

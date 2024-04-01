@@ -27,7 +27,7 @@
             </div>
         </header>
         <div>
-            <img class="my-6 mx-auto size-[229px]" src="/img/logo.webp" alt="">
+            <img class="my-6 mx-auto size-[229px]" src="/img/logo.png" alt="">
             <h1 class="text-xl font-semibold text-center mx-10 mb-7">¡No te quedes con el anotojo!</h1>
             <p class="text-base font-semibold text-center">Visitanos en:  Girasoles 4722, Ricardo Flores Magón, 82190 Mazatlán, Sin.</p>
 
