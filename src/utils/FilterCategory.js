@@ -14,6 +14,5 @@ export const filterCategory = (category) => {
         snacksFilter.push(...newFilter)
         
     }
-    console.log(snacksFilter)
     return snacksFilter
 }

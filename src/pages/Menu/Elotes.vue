@@ -26,10 +26,10 @@ const menuList = ref(filterCategory('Elote'));
         </ul>
     </nav>
 
-    <div class="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3">
+    <div class="max-w-lg md:max-w-4xl xl:max-w-7xl  mx-auto flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3 xl:gap-2">
 
         <router-link 
-            class="w-[358px] h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md"
+            class="w-full h-20 flex justify-between gap-4 rounded-lg my-3 mx-auto p-4 shadow-md"
             v-for="snack in snacksFilter"
             :key="snack.id"
             :to="{name: 'snacks.show', params:{id:snack.id}}"
