@@ -18,7 +18,7 @@ export const snacks = [
     { 
         id: 3,
         titulo: 'Mixto',
-        descripcion: 'Charola con elote entero, sabritas al rededor y elote drafranado encima',
+        descripcion: 'Charola con elote entero, sabritas al rededor y elote desgranado encima',
         precio: 105,
         categoria: 'Elote',
         img: 'eloteMixto'
@@ -184,14 +184,15 @@ export const snacks = [
         id: 24,
         titulo: 'Raspados',
         //TODO aagregar descripciones
-        descripcion: '',
+        descripcion: 'Con sabores desde durazno, ciruela, piña, jamaica, leche con vainilla, guayaba y muchos más',
         precio: 25,
         categoria: 'Helado',
+        img: 'raspado'
     },
     { 
         id: 25,
         titulo: 'Frappé',
-        descripcion: '',
+        descripcion: 'Con sabores de cajeta, fresa, nutella, mazapán, oreo y  hersheys',
         precio: 70,
         categoria: 'Helado',
         img: 'frappe'
@@ -217,6 +218,7 @@ export const snacks = [
         descripcion: '',
         precio: 70,
         categoria: 'Helado',
+        img: 'FresasCrema'
     },
     { 
         id: 29,
@@ -224,6 +226,7 @@ export const snacks = [
         descripcion: '',
         precio: 70,
         categoria: 'Helado',
+        img:'MangoCrema'
     },
     { 
         id: 30,
@@ -325,6 +328,7 @@ export const snacks = [
         descripcion: '',
         precio: 40,
         categoria: 'Bebidas',
+        img:'Cocohorchata'
     },
     //Todo postres
     { 
@@ -333,6 +337,7 @@ export const snacks = [
         descripcion: '',
         precio: 60,
         categoria: 'Postres',
+        img:'PayGuayaba'
     },
     { 
         id: 45,
@@ -340,6 +345,7 @@ export const snacks = [
         descripcion: '',
         precio: 60,
         categoria: 'Postres',
+        img:'Flan'
     },
     { 
         id: 46,
@@ -361,6 +367,23 @@ export const snacks = [
         descripcion: '',
         precio: 60,
         categoria: 'Postres',
+        img:'CheeseCakeOreo'
+    },
+    { 
+        id: 49,
+        titulo: 'Mango Extremo',
+        descripcion: 'Mangoneada con chamoy, pepino y gomitas picosas',
+        precio: 0,
+        categoria: 'Helado',
+        img: 'MangoExtremo'
+    },
+    { 
+        id: 50,
+        titulo: 'Pepino Ice',
+        descripcion: 'Pepino partido con nieve, gomitas y chilito miguelito.',
+        precio: 0,
+        categoria: 'Helado',
+        img: 'PepinoIce'
     },
 ]
 
@@ -371,11 +394,8 @@ export const snacks = [
     gomitas preparadas,
     tosticueritos,
     tostiloco mixmo,
-    raspado,
     bolis de agua,
     bolis de leche,
-    fresas con crema
-    mango con crema,
     chamoyada,
     jamaicada,
     paraguitas,
@@ -388,10 +408,6 @@ export const snacks = [
     refrescos de 600ml,
     agua natural,
     agua de sabor,
-    cocohorchata,
-    pay de guayaba,
-    flan,
     pastel de tres leches,
     chocoflan,
-    cheesecake de oreo,
 */
