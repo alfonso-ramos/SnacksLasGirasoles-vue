@@ -3,15 +3,15 @@ export const snacks = [
         id: 1,
         titulo: 'Elote entero',
         descripcion: 'Elote en palo natural con queso y crema o mayonesa',
-        precio: 30,
+        precio: 35,
         categoria: 'Elote',
         img: 'entero'
     },
     { 
         id: 2,
         titulo: 'Elote en vaso',
-        descripcion: 'Elote desgranado en vaso',
-        precio: 25,
+        descripcion: 'Elote desgranado en vaso, Precio: $30, $40, $50, $65',
+        precio: 30,
         categoria: 'Elote',
         img: 'eloteVaso'
     },
@@ -19,7 +19,7 @@ export const snacks = [
         id: 3,
         titulo: 'Mixto',
         descripcion: 'Charola con elote entero, sabritas al rededor y elote desgranado encima',
-        precio: 105,
+        precio: 120,
         categoria: 'Elote',
         img: 'eloteMixto'
 
@@ -28,7 +28,7 @@ export const snacks = [
         id: 4,
         titulo: 'DuoMix',
         descripcion: 'Litro de elote desgranado y unas sabritas enteras con elote partido en dos por encima ',
-        precio: 105,
+        precio: 120,
         categoria: 'Elote',
         img: 'Duomix'
     },
@@ -36,7 +36,7 @@ export const snacks = [
         id: 5,
         titulo: 'Envuelto',
         descripcion: 'Elote entero con queso y crema o mayonesa, envuelto con sabritas molidas de su eleccion',
-        precio: 60,
+        precio: 65,
         categoria: 'Elote',
         img: 'envuelto'
     },
@@ -44,14 +44,14 @@ export const snacks = [
         id: 6,
         titulo: 'Envuelto especial',
         descripcion: 'Elote entero envuelto con la sabrita de su preferencia, sabritas enteras alrededor y elote desgranado',
-        precio: 120,
+        precio: 130,
         categoria: 'Elote',
     },
     { 
         id: 7,
         titulo: 'Elote erupcion',
         descripcion: 'Plato de elote desgranado con sabritas enteras, al centro un medio litro con dos mitades de elote entero clavados con queso, crema y queso amarillo',
-        precio: 120,
+        precio: 130,
         categoria: 'Elote',
         img: 'eloteErupcion'
     },
@@ -59,7 +59,7 @@ export const snacks = [
         id: 8,
         titulo: 'Elección',
         descripcion: 'Medio litro de elote desgranado con una sabrita molida, queso, crema o mayonesa y queso amarillo',
-        precio: 70,
+        precio: 80,
         categoria: 'Elote',
         img: 'eleccionNormal'
     },
@@ -67,7 +67,7 @@ export const snacks = [
         id: 9,
         titulo: 'Eleccion especial',
         descripcion: 'Charola de elote con una elección normal en el medio, al rededor una sabrita entera con elote desgranado',
-        precio: 105,
+        precio: 120,
         categoria: 'Elote',
         img: 'eleccionEspecial'
     },
@@ -75,7 +75,7 @@ export const snacks = [
         id: 10,
         titulo: 'Esquisopa',
         descripcion: 'Charola con una maruchan preparado con elote desgranado y una sabrita enteras',
-        precio: 105,
+        precio: 120,
         categoria: 'Elote',
         img: 'esquisopa'
     },
@@ -98,8 +98,8 @@ export const snacks = [
     { 
         id: 13,
         titulo: 'Cacahuatada',
-        descripcion: 'Vaso con cacahuates, cueritos, pepino, jicama, rielitos, kermato y salsa agridulce',
-        precio: 40,
+        descripcion: 'Vaso con cacahuates, cueritos, pepino, jicama, rielitos, kermato y salsa agridulce. Precio: $45 y $55',
+        precio: 45,
         categoria: 'Agridulce',
         img: 'cacahuatada'
     },
@@ -107,21 +107,21 @@ export const snacks = [
         id: 14,
         titulo: 'Takisloco',
         descripcion: 'Takis preparado con ceviche, pepino, jicama, cacahuates, rielitos y gomitas',
-        precio: 80,
+        precio: 85,
         categoria: 'Agridulce',
     },
     { 
         id: 15,
         titulo: 'Manzana',
         descripcion: 'Manzana enchilada preparada con pepino, jicama, cacahuates, rielitos, gomitas y salsa agridulce',
-        precio: 70,
+        precio: 75,
         categoria: 'Agridulce',
     },
     { 
         id: 16,
         titulo: 'Churroloco',
         descripcion: 'Vaso com churros de maiz, cacahuates, salchichas, pepino, jicama, rielitos, kermaot, gomitas y salsa agridulce',
-        precio: 50,
+        precio: 55,
         categoria: 'Agridulce',
         img: 'churroLoco'
     },
@@ -144,7 +144,7 @@ export const snacks = [
         id: 19,
         titulo: 'Tostielote',
         descripcion: 'Tostitos con elote desgranado, queso amarillo, queso y crema o mayones',
-        precio: 65,
+        precio: 70,
         categoria: 'Tostitos',
         img: 'Tostielote'
     },
@@ -152,7 +152,7 @@ export const snacks = [
         id: 20,
         titulo: 'Tostiloco',
         descripcion: 'Tostitos con ceviche de sierra, cueritos, pepino, jicama, cacahuate, rielitos y kermato',
-        precio: 65,
+        precio: 70,
         categoria: 'Tostitos',
         img: 'tostiloco'
     },
@@ -160,7 +160,7 @@ export const snacks = [
         id: 21,
         titulo: 'Tosticamaron',
         descripcion: 'Tostitos con ceviche de camaron, cueritos, jicama, cacahuates, rielitos y kermato',
-        precio: 70,
+        precio: 100,
         categoria: 'Tostitos',
         img: 'tostiCamaron'
     },
@@ -176,7 +176,7 @@ export const snacks = [
         id: 23,
         titulo: 'Tostiloco Mixto',
         descripcion: '',
-        precio: 120,
+        precio: 130,
         categoria: 'Tostitos',
     },
     //TODO Helado
@@ -184,8 +184,8 @@ export const snacks = [
         id: 24,
         titulo: 'Raspados',
         //TODO aagregar descripciones
-        descripcion: 'Con sabores desde durazno, ciruela, piña, jamaica, leche con vainilla, guayaba y muchos más',
-        precio: 25,
+        descripcion: 'Con sabores desde durazno, ciruela, piña, jamaica, leche con vainilla, guayaba y muchos más. Precio: $30, $35 y $45',
+        precio: 30,
         categoria: 'Helado',
         img: 'raspado'
     },
@@ -247,7 +247,7 @@ export const snacks = [
         id: 32,
         titulo: 'Jamaicada',
         descripcion: '',
-        precio: 45,
+        precio: 50,
         categoria: 'Helado',
     },
     { 
@@ -373,7 +373,7 @@ export const snacks = [
         id: 49,
         titulo: 'Mango Extremo',
         descripcion: 'Mangoneada con chamoy, pepino y gomitas picosas',
-        precio: 0,
+        precio: 60,
         categoria: 'Helado',
         img: 'MangoExtremo'
     },
@@ -384,6 +384,22 @@ export const snacks = [
         precio: 0,
         categoria: 'Helado',
         img: 'PepinoIce'
+    },
+    { 
+        id: 51,
+        titulo: 'Nachos',
+        descripcion: 'Deliciosos Nachos preparados',
+        precio: 70,
+        categoria: 'Caliente',
+        img: ''
+    },
+    { 
+        id: 51,
+        titulo: 'Nachos',
+        descripcion: 'Deliciosos Salchitacos preparados',
+        precio: 70,
+        categoria: 'Caliente',
+        img: ''
     },
 ]
 
